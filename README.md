@@ -37,7 +37,6 @@
 ![About Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/About.png)
 
 ## :pencil: **Author**
----
 ### :man: Yidnekachew Bantrga
 - [Github](https://github.com/Yidne21)
 - [Linkedin](https://www.linkedin.com/in/yidnekachew-bantrga-801376234/)
