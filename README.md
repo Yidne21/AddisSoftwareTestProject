@@ -20,6 +20,12 @@
 4. After the installation is finished install json server using this command on terminal `npm install -g json-server` then start the server using this command `json-server --watch db.json 3500`
 6. finaly type `npm start` then it will runs the app in the development mode. then Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## :arrow_forward: Project Demo 
+Access the project using this link [Test Project](https://master--chipper-starship-ffb552.netlify.app/)
+
+- It is deployed on netlify and as backed it uses Fake Api deployed on github in [api_server](https://github.com/Yidne21/api_server) repository.
+- **Notice** Since the deployed app uses fake api [My JSON Server](https://my-json-server.typicode.com/) Changes on Data is not persistent when the page reloads it does not perform The CRUD operation But on local Machine Using json server It Perform CRUD Operations.
+
 ## Screen Shots
 ### Home page
 ![Home Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/Home.png)
