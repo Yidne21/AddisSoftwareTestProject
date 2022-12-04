@@ -17,7 +17,7 @@
 1. Clone This Repositary. 
 2. Change the directory in to the project directory.
 3. Open it on Terminal then type `npm install` and hit Enter.
-4. After the installation is finished install json server using this command on terminal `npm install -g json-server` then start the server using this command `json-server --watch db.json 3500` in the directory of [db](https://github.com/Yidne21/AddisSoftwareTestProject/tree/master/db).
+4. After the installation is finished install json server using this command on terminal `npm install -g json-server` then start the server using this command `json-server --watch db.json 3500`
 6. finaly type `npm start` then it will runs the app in the development mode. then Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Screen Shots
