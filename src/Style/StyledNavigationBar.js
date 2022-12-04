@@ -27,7 +27,7 @@ export const StyledNavigationBar = styled.div`
       font-size: 30pt;
     }
   }
-  a {
+  button {
     underline: none;
     color: black;
     font-size: 20pt;
@@ -39,7 +39,7 @@ export const StyledNavigationBar = styled.div`
     border: 2px solid rgb(36, 206, 200);
   }
 
-  a:hover {
+  button:hover {
     transition: all 0.6s ease;
     -webkit-transition: all 0.7s ease;
     background-color: rgb(36, 206, 200);

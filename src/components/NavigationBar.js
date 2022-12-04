@@ -7,10 +7,10 @@ const NavigationBar = () => {
       <p>Addis Software Test Project</p>
 
       <div>
-        <a onClick={() => navigate("/")}>Home</a>
-        <a onClick={() => navigate("/add")}>Add User</a>
+        <button onClick={() => navigate("/")}>Home</button>
+        <button onClick={() => navigate("/add")}>Add User</button>
 
-        <a onClick={() => navigate("/about")}>About</a>
+        <button onClick={() => navigate("/about")}>About</button>
       </div>
     </StyledNavigationBar>
   );
