@@ -1,0 +1,44 @@
+{
+  "Users": [
+    {
+      "firstname": "Abel",
+      "lastname": "Zeleke",
+      "age": "23",
+      "Gender": "M",
+      "height": "170cm",
+      "id": 1
+    },
+    {
+      "firstname": "Bisrat",
+      "lastname": "Jenbere",
+      "age": "23",
+      "Gender": "M",
+      "height": "179cm",
+      "id": 2
+    },
+    {
+      "firstname": "Zola",
+      "lastname": "Daniel",
+      "age": "23",
+      "Gender": "M",
+      "height": "170cm",
+      "id": 3
+    },
+    {
+      "firstname": "Tolossa",
+      "lastname": "Ganati",
+      "age": "23",
+      "Gender": "M",
+      "height": "180cm",
+      "id": 4
+    },
+    {
+      "firstname": "Betsegaw",
+      "lastname": "Abebe",
+      "age": "23",
+      "Gender": "M",
+      "height": "177cm",
+      "id": 5
+    }
+  ]
+}
