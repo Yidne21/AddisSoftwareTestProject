@@ -1,10 +1,10 @@
 # Addis Software Test Project
 
 ## Description
----
+
 <p> This is a  test project for Addis Software Internship Programm. it's purpose is to perform CRUD operation Using React, Redux, Redux-Saga, styled components and JsonPlaceholder fake api as backed-end. </p>
 
----
+
 ## Technologies
 - **React** to implement the UI components. 
 - **Redux** to manage react component states.
