@@ -27,7 +27,7 @@ const AddUser = () => {
       const selectedUser = users.find((item) => item.id === Number(id));
       setFormValue(selectedUser);
     }
-  }, [id]);
+  }, [id, users]);
 
   const navigate = useNavigate();
 

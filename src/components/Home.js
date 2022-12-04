@@ -11,9 +11,10 @@ const Home = () => {
   const dispatch = useDispatch();
   const { users, loading } = useSelector((state) => state.data);
 
+
   useEffect(() => {
     dispatch(loadUsersStart());
-  }, []);
+  },[dispatch]);
 
   if (loading) {
     return (
@@ -24,9 +25,10 @@ const Home = () => {
       </LoadingStyle>
     );
   }
-  function refreshPage() {
-    window.location.reload(false);
-  }
+
+      function refreshPage() {
+        window.location.reload(false);
+      }
 
   const handleDelete = (id) => {
     console.log(typeof id);
