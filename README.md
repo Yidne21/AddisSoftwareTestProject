@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Addis Software Test Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+---
+### This is a  test project for Addis Software Internship Programm. it's purpose is to perform CRUD operation Using React, Redux, Redux-Saga, styled components and JsonPlaceholder fake api as backed-end. 
+---
 
-## Available Scripts
+## Technologies
+- **React** to implement the UI components. 
+- **Redux** to manage react component states.
+- **Redux-Saga** to fetch Api.
+- **Styled-Component** to Style react UI components.
+- **JsonPlaceholder-fake-api-server** to serve fake data. 
+- Versions of those tools and other dependecy found on [Pacage.json file](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/package.json)
 
-In the project directory, you can run:
+##  Installation
+1. Clone This Repositary. 
+2. Change the directory in to the project directory.
+3. Open it on Terminal then type `npm install` and hit Enter.
+4. After the installation is finished install json server using this command on terminal `npm install -g json-server` then start the server using this command `json-server --watch db.json 3500` in the directory of [db](https://github.com/Yidne21/AddisSoftwareTestProject/tree/master/db).
+6. finaly type `npm start` then it will runs the app in the development mode. then Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm start`
+## Screen Shots
+### Home page
+![Home Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/Home.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+### Add page
+![Add Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/Add.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+### Update page
+![Add Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/Update.png)
 
-### `npm test`
+---
+###  About page
+![About Page](https://github.com/Yidne21/AddisSoftwareTestProject/blob/master/ScreenShot/About.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :pencil: **Author**
+---
+### :man: Yidnekachew Bantrga
+- [Github](https://github.com/Yidne21)
+- [Linkedin](https://www.linkedin.com/in/yidnekachew-bantrga-801376234/)
