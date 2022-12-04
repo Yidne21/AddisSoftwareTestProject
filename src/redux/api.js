@@ -18,13 +18,13 @@ export const updateUserApi = async (userId, userInfo) =>
 
 //Comment those below code when using it on your local Machine
 export const loadUsersApi = async () =>
-  await axios.get("https://my-json-server.typicode.com/Yidne21/AddisSoftwareTestProject");
+  await axios.get("https://my-json-server.typicode.com/Yidne21/api_server/Users");
 
 export const creaeteUserApi = async (user) =>
-  await axios.post("https://my-json-server.typicode.com/Yidne21/AddisSoftwareTestProject", user);
+  await axios.post("https://my-json-server.typicode.com/Yidne21/api_server/Users", user);
 
 export const deleteUserApi = async (userId) =>
-  await axios.delete(`https://my-json-server.typicode.com/Yidne21/AddisSoftwareTestProject/${userId}`);
+  await axios.delete(`https://my-json-server.typicode.com/Yidne21/api_server/Users/${userId}`);
 
 export const updateUserApi = async (userId, userInfo) =>
-  await axios.put(`https://my-json-server.typicode.com/Yidne21/AddisSoftwareTestProject/${userId}`, userInfo);
+  await axios.put(`https://my-json-server.typicode.com/Yidne21/api_server/Users/${userId}`, userInfo);
